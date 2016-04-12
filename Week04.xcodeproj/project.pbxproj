@@ -15,6 +15,10 @@
 		96A404361CA8CBE300DB3A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A404341CA8CBE300DB3A49 /* LaunchScreen.storyboard */; };
 		96A404411CA8CBE400DB3A49 /* Week04Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A404401CA8CBE400DB3A49 /* Week04Tests.swift */; };
 		96A4044C1CA8CBE400DB3A49 /* Week04UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A4044B1CA8CBE400DB3A49 /* Week04UITests.swift */; };
+		96A4045E1CA8D62C00DB3A49 /* PartyListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A4045D1CA8D62C00DB3A49 /* PartyListController.swift */; };
+		96A404601CA8D64700DB3A49 /* AddMonsterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A4045F1CA8D64700DB3A49 /* AddMonsterController.swift */; };
+		96A404621CA8D68C00DB3A49 /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A404611CA8D68C00DB3A49 /* MonsterCell.swift */; };
+		96A404641CA8D9DC00DB3A49 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A404631CA8D9DC00DB3A49 /* Monster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		96A404471CA8CBE400DB3A49 /* Week04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week04UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A4044B1CA8CBE400DB3A49 /* Week04UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week04UITests.swift; sourceTree = "<group>"; };
 		96A4044D1CA8CBE400DB3A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A4045D1CA8D62C00DB3A49 /* PartyListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyListController.swift; sourceTree = "<group>"; };
+		96A4045F1CA8D64700DB3A49 /* AddMonsterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMonsterController.swift; sourceTree = "<group>"; };
+		96A404611CA8D68C00DB3A49 /* MonsterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
+		96A404631CA8D9DC00DB3A49 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				96A404341CA8CBE300DB3A49 /* LaunchScreen.storyboard */,
 				96A404371CA8CBE300DB3A49 /* Info.plist */,
 				96A4042F1CA8CBE300DB3A49 /* Week04.xcdatamodeld */,
+				96A4045D1CA8D62C00DB3A49 /* PartyListController.swift */,
+				96A4045F1CA8D64700DB3A49 /* AddMonsterController.swift */,
+				96A404611CA8D68C00DB3A49 /* MonsterCell.swift */,
+				96A404631CA8D9DC00DB3A49 /* Monster.swift */,
 			);
 			path = Week04;
 			sourceTree = "<group>";
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A404621CA8D68C00DB3A49 /* MonsterCell.swift in Sources */,
+				96A404601CA8D64700DB3A49 /* AddMonsterController.swift in Sources */,
+				96A4045E1CA8D62C00DB3A49 /* PartyListController.swift in Sources */,
 				96A404311CA8CBE300DB3A49 /* Week04.xcdatamodeld in Sources */,
 				96A4042B1CA8CBE300DB3A49 /* ViewController.swift in Sources */,
 				96A404291CA8CBE300DB3A49 /* AppDelegate.swift in Sources */,
+				96A404641CA8D9DC00DB3A49 /* Monster.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
